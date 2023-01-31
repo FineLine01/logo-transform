@@ -23,3 +23,7 @@ img {
     z-index: 2;
 }
 
+img:hover {
+    cursor: url('/logo/heart-logo.png'), auto;
+}
+
