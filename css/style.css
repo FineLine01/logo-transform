@@ -1,0 +1,25 @@
+.logo-box {
+    position: relative;
+}
+
+img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#lg-1 {
+    transform: translate(25px, 25px);
+    opacity: 1.0;
+    z-index: 0;
+
+}
+#lg-2 { 
+    transform: translate(50px, 50px);
+    opacity: 0.5;
+    z-index: 1;
+}
+#lg-3 {
+    z-index: 2;
+}
+
